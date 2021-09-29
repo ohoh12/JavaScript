@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Output</title>
+</head>
+
+<body>
+<!--간단한 메시지를 보여주고 사용자가 확인이나 취소를 누르면 그 결과를 불리언 값으로 변환함-->
+	<h1>Window 객체의 confirm() 메소드</h1>
+	<button onclick="alertDialogBox()">confirm 대화 상자</button>
+		
+	<script>
+		function comfirmDialogBox() {
+			var str;
+            if(confirm("확인이나 취소를 눌러주세요!")==true){
+                str = "당신은 확인을 눌렀습니다!";
+            }
+            else {
+                str = "당신은 취소를 눌렀습니다!";
+            }
+            document.getElementById("text").innerHTML = str;
+		}
+	</script>
+	
+</body>
+
+</html>

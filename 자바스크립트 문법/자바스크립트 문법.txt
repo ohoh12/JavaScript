@@ -1,0 +1,33 @@
+//자바스크립트의 실행문은 세미클론(;)으로 구분된다.
+var x = 10;
+var result = x + 3;
+
+
+//대소문자를 정확히 구분해서 사용해야됨
+var javascript = 10; //변수 javascript와 JavaScript는 서로 다른 두 개의 변수로 인식됨.
+
+
+//리터럴(literal) : 직접 표현되는 값 그 자체를 의미함
+12 //숫자 리터럴
+"JavaScript" //문자열 리터럴
+'안녕하세요' //문자열 리터럴 
+ture //불리언 리터럴(참,거짓)
+
+/*식별자 : 변수나 함수의 이름을 작성할 떄 사용하는 이름을 뜻함
+js에서 식별자는 영문(대소문자),숫자,(_)또는($)만 사용가능*/
+
+
+/*Camel Case 방식 : 첫 번쨰 단어는 모두 소문자 그 다음 단어부터는 첫 문자만 대문자
+Underscore Case 방식 : 모든 단어들을 소문자로*/
+var firstVar = 10;              //Camel Case 방식
+function  my_first_func {       //Underscore Case 방식
+    var firstLocalVar = 20;     //Camel Case 방식
+}
+//키워드
+var firstVar = 10;      //var는 변수의 정의를 위해 예약된 키워드입니다.
+
+function myFirstFunc {  //function은 함수의 정의를 위해 예약된 키워드입니다.
+
+    var secondVar = 20; //var는 변수의 정의를 위해 예약된 키워드입니다.
+
+}
